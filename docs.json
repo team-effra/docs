@@ -10,13 +10,7 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
-      "getting-started",
-      {
-        "group": "PMS guides",
-        "pages": [
-          "pms-guides/test"
-        ]
-      }
+      "getting-started"
     ]
   },
   "logo": "/images/logo.svg",
