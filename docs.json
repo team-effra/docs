@@ -13,7 +13,9 @@
       "getting-started",
       {
         "group": "PMS guides",
-        "pages": []
+        "pages": [
+          "pms-guides/test"
+        ]
       }
     ]
   },
