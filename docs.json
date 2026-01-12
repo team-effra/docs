@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4460ef",
+    "light": "#4460ef",
+    "dark": "#4460ef"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -17,10 +17,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/logo.svg",
   "navbar": {
     "links": [
       {
@@ -52,5 +49,8 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "appearance": {
+    "default": "light"
   }
 }
