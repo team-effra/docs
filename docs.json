@@ -1,19 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Effra Support",
   "colors": {
     "primary": "#4460ef",
     "light": "#4460ef",
     "dark": "#4460ef"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
-    "pages": [
-      "getting-started"
-    ]
+    "pages": ["getting-started"]
   },
-  "logo": "/images/Effralogo.png",
+  "logo": "/logo/Effra logo.png",
   "navbar": {
     "links": [
       {
@@ -28,12 +26,7 @@
     }
   },
   "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude"
-   ]
+    "options": ["copy", "view", "chatgpt", "claude"]
   },
   "appearance": {
     "default": "light"
