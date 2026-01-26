@@ -13,32 +13,32 @@ To get Cliniko set up there are two steps:
 ## Granting Effra access to Cliniko
 
 1. From the left sidebar menu click **Settings**
-2. Under **Our Clinic**, click on  **Users & practitioners** then **Add user**
+2. Under **Our Clinic**, click on **Users & practitioners** then **Add user**
 3. Enter a **First name** and **Last name** that will be clear for future reference for example **Effra** and **Ltd**
 4. Enter [**robot@effra.io**](mailto:robot@effra.io) in the **Email** field
 5. Select the **Power receptionist** as the security role
 6. Select **No** under **Is this user a practitioner?**
 7. Click **Create user** and enter your password to confirm
-8. Click on the user you’ve just created to edit them. Then turn on **Allow Effra to create and update API keys**
+8. Click on the user you've just created to edit them. Then turn on **Allow Effra to create and update API keys**
 
-Click **Update user**  and enter your password to confirm
+Click **Update user** and enter your password to confirm
 
 ## Setting up billable items
 
-In order to bill each invoice correctly, Effra needs to know which procedure and insurer it’s for. To do this, you can edit your  billable items in Cliniko.
+In order to bill each invoice correctly, Effra needs to know which procedure and insurer it's for. To do this, you can edit your billable items in Cliniko.
 
 This is also the Cliniko recommended way to manage insurance billing so you can ensure each session is priced correctly and you never accidentally underbill.
 
-1. From the left sidebar  menu click **Settings** then under **Finances** click on **Billable items**
+1. From the left sidebar menu click **Settings** then under **Finances** click on **Billable items**
 2. Review your list of **Billable items**:
-   1. The ideal format is “**Insurer - Specialty - Consultation Type**” for example “**Bupa - Physiotherapy - Initial Assessment**”
+   1. The ideal format is **Insurer - Specialty - Consultation Type** for example **Bupa - Physiotherapy - Initial Assessment**
    2. The **item code** can be whatever is preferred for you
-   3. Ensure you have one billing item  for each type of procedure for each insurer. For example:
+   3. Ensure you have one billing item for each type of procedure for each insurer. For example:
       1. **BUPA - Physiotherapy - Initial Assessment**
       2. **BUPA - Pelvic Floor - Follow Up**
       3. **AXA - Hydrotherapy - Initial Assessment**
-   1. Ensure the billable item names have the insurer name in them as well as the name of the procedure
-1. If you need to add any new billable item, click on the **Add service** or **Add other** button
+   4. Ensure the billable item names have the insurer name in them as well as the name of the procedure
+3. If you need to add any new billable item, click on the **Add service** or **Add other** button
 
 # Storing and updating patient insurance details
 
@@ -46,7 +46,7 @@ Once Cliniko is set up you just need to make sure you store patient insurance de
 
 Effra extracts the insurance policy number and authorisation number from each invoice. If you store these details within the **Invoice extra information** field on the patient they will automatically populate onto each invoice you raise for that patient.
 
-This field should contain the authorisation number and policy number. Effra will work with and format but something clear and simple like the below is ideal. 
+This field should contain the authorisation number and policy number. Effra will work with and format but something clear and simple like the below is ideal.
 
 **Insurer: Policy Number**
 
@@ -55,14 +55,14 @@ This field should contain the authorisation number and policy number. Effra will
 as shown below:
 
 <img
-  src="/images/image-1.png"
+  src="/images/cliniko-insurance-details.png"
   alt="Screenshot showing invoice extra information with insurance details"
   title="Invoice extra information with insurance details"
-  style={{ width:"71%" }}
+  style={{ width: "71%" }}
 />
 
-The **Invoice extra information** field is below another similar titled  field \*\*Invoice to \*\*field so careful not to mix them up!
+The **Invoice extra information** field is below another similar titled field **Invoice to** field so careful not to mix them up!
 
 **Important**: Each invoice should only have **one authorisation number**.
 
- If you have multiple authorisation codes for a single patient (for example because they have two conditions being treated) just delete all but the relevant one for that appointment when creating the invoice.
+If you have multiple authorisation codes for a single patient (for example because they have two conditions being treated) just delete all but the relevant one for that appointment when creating the invoice.

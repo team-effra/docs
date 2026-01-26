@@ -10,16 +10,21 @@
   "favicon": "/favicon.ico",
   "navigation": {
     "pages": [
-      "getting-started",
       {
-        "group": "Practice management system guides",
+        "group": "Getting started",
         "pages": [
-          "practice-management-system-guides/cliniko"
+          "getting-started/introduction"
+        ]
+      },
+      {
+        "group": "Practice management systems",
+        "pages": [
+          "practice-management-systems/cliniko"
         ]
       }
     ]
   },
-  "logo": "/logo/Effra logo.png",
+  "logo": "/logo/effra-logo.png",
   "navbar": {
     "links": [
       {
