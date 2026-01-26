@@ -62,9 +62,6 @@
       "href": "https://app.effra.io"
     }
   },
-  "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude"]
-  },
   "appearance": {
     "default": "light"
   }
