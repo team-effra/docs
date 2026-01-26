@@ -16,7 +16,18 @@
           {
             "group": "Getting started",
             "pages": [
-              "getting-started/introduction"
+              "getting-started/introduction",
+              "getting-started/supported-insurers"
+            ]
+          },
+          {
+            "group": "Getting set up",
+            "pages": [
+              "getting-set-up/overview",
+              "getting-set-up/insurer-details",
+              "getting-set-up/practice-management-system",
+              "getting-set-up/patient-payments",
+              "getting-set-up/bank-reconciliation"
             ]
           },
           {
