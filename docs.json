@@ -9,17 +9,30 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting started",
+        "tab": "Documentation",
         "pages": [
-          "getting-started/introduction"
+          {
+            "group": "Getting started",
+            "pages": [
+              "getting-started/introduction"
+            ]
+          },
+          {
+            "group": "Practice management systems",
+            "pages": [
+              "practice-management-systems/cliniko"
+            ]
+          }
         ]
       },
       {
-        "group": "Practice management systems",
+        "tab": "FAQs",
         "pages": [
-          "practice-management-systems/cliniko"
+          "faqs/card-on-file",
+          "faqs/connect-bank-account",
+          "faqs/direct-patient-payment"
         ]
       }
     ]
