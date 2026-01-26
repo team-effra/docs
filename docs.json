@@ -14,10 +14,10 @@
         "tab": "Documentation",
         "pages": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "getting-started/introduction",
-              "getting-started/supported-insurers"
+              "introduction/overview",
+              "introduction/supported-insurers"
             ]
           },
           {
