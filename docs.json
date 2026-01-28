@@ -25,15 +25,22 @@
             "pages": [
               "getting-set-up/overview",
               "getting-set-up/insurer-details",
-              "getting-set-up/practice-management-system",
+              {
+                "group": "Practice management system",
+                "expanded": false,
+                "pages": [
+                  "getting-set-up/supported-systems",
+                  "getting-set-up/cliniko"
+                ]
+              },
               "getting-set-up/patient-payments",
               "getting-set-up/bank-reconciliation"
             ]
           },
           {
-            "group": "Practice management systems",
+            "group": "Using Effra",
             "pages": [
-              "practice-management-systems/cliniko"
+              "using-effra/cliniko"
             ]
           }
         ]

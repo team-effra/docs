@@ -1,6 +1,5 @@
 ---
 title: "Cliniko"
-description: "How to set up and use Cliniko with Effra."
 ---
 
 # Setting up Cliniko
@@ -39,30 +38,3 @@ This is also the Cliniko recommended way to manage insurance billing so you can 
       3. **AXA - Hydrotherapy - Initial Assessment**
    4. Ensure the billable item names have the insurer name in them as well as the name of the procedure
 3. If you need to add any new billable item, click on the **Add service** or **Add other** button
-
-# Storing and updating patient insurance details
-
-Once Cliniko is set up you just need to make sure you store patient insurance details in the right place and Effra will do the rest.
-
-Effra extracts the insurance policy number and authorisation number from each invoice. If you store these details within the **Invoice extra information** field on the patient they will automatically populate onto each invoice you raise for that patient.
-
-This field should contain the authorisation number and policy number. Effra will work with and format but something clear and simple like the below is ideal.
-
-**Insurer: Policy Number**
-
-**Auth code: XXXX**
-
-as shown below:
-
-<img
-  src="/images/cliniko-insurance-details.png"
-  alt="Screenshot showing invoice extra information with insurance details"
-  title="Invoice extra information with insurance details"
-  style={{ width: "71%" }}
-/>
-
-The **Invoice extra information** field is below another similar titled field **Invoice to** field so careful not to mix them up!
-
-**Important**: Each invoice should only have **one authorisation number**.
-
-If you have multiple authorisation codes for a single patient (for example because they have two conditions being treated) just delete all but the relevant one for that appointment when creating the invoice.
