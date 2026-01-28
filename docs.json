@@ -24,7 +24,14 @@
             "group": "Getting set up",
             "pages": [
               "getting-set-up/overview",
-              "getting-set-up/insurer-details",
+              {
+                "group": "Insurers",
+                "expanded": false,
+                "pages": [
+                  "getting-set-up/insurer-details",
+                  "getting-set-up/bupa-providers-online"
+                ]
+              },
               {
                 "group": "Practice management system",
                 "expanded": false,
