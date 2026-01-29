@@ -16,41 +16,41 @@
           {
             "group": "Introduction",
             "pages": [
-              "introduction/overview",
-              "introduction/supported-insurers"
+              "docs/introduction/overview",
+              "docs/introduction/supported-insurers"
             ]
           },
           {
             "group": "Getting set up",
             "pages": [
-              "getting-set-up/overview",
+              "docs/getting-set-up/overview",
               {
                 "group": "Insurers",
                 "expanded": false,
                 "pages": [
-                  "getting-set-up/insurer-details",
-                  "getting-set-up/bupa-providers-online"
+                  "docs/getting-set-up/insurer-details",
+                  "docs/getting-set-up/bupa-providers-online"
                 ]
               },
               {
                 "group": "Practice management system",
                 "expanded": false,
                 "pages": [
-                  "getting-set-up/supported-systems",
-                  "getting-set-up/cliniko"
+                  "docs/getting-set-up/supported-systems",
+                  "docs/getting-set-up/cliniko"
                 ]
               },
-              "getting-set-up/patient-payments",
-              "getting-set-up/bank-reconciliation"
+              "docs/getting-set-up/patient-payments",
+              "docs/getting-set-up/bank-reconciliation"
             ]
           },
           {
             "group": "Using Effra",
             "pages": [
-              "using-effra/cliniko"
+              "docs/using-effra/cliniko"
             ]
           },
-          "insurer-contact-details"
+          "docs/insurer-contact-details"
         ]
       },
       {
