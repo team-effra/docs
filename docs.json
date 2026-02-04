@@ -58,7 +58,8 @@
         "pages": [
           "faqs/card-on-file",
           "faqs/connect-bank-account",
-          "faqs/direct-patient-payment"
+          "faqs/direct-patient-payment",
+          "faqs/patient-invoices"
         ]
       }
     ]
