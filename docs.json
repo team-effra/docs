@@ -48,7 +48,8 @@
           {
             "group": "Using Effra",
             "pages": [
-              "docs/using-effra/cliniko"
+              "docs/using-effra/cliniko",
+              "docs/using-effra/mindbody"
             ]
           },
           "docs/insurer-contact-details"
