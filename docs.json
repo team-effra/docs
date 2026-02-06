@@ -37,7 +37,8 @@
                 "expanded": false,
                 "pages": [
                   "docs/getting-set-up/supported-systems",
-                  "docs/getting-set-up/cliniko"
+                  "docs/getting-set-up/cliniko",
+                  "docs/getting-set-up/mindbody"
                 ]
               },
               "docs/getting-set-up/patient-payments",
