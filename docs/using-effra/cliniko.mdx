@@ -28,3 +28,53 @@ The **Invoice extra information** field is below another similar titled field **
 **Important**: Each invoice should only have **one authorisation number**.
 
 If you have multiple authorisation codes for a single patient (for example because they have two conditions being treated) just delete all but the relevant one for that appointment when creating the invoice.
+
+# Reconciling invoices between Cliniko and Xero
+
+## Set up the Cliniko to Xero integration
+
+Follow the [Cliniko guide to integrating Xero with your Cliniko account](https://help.cliniko.com/en/articles/1023891-integrate-cliniko-with-your-xero-account).
+
+We also recommend using at least one dedicated clearing account within Xero to reconcile your Cliniko payments as covered in [this Cliniko guide](https://help.cliniko.com/en/articles/1023967-set-up-xero-for-use-with-cliniko).
+
+## How invoices get marked as paid
+
+When you create an invoice in Cliniko, the Cliniko to Xero integration automatically creates that invoice in Xero.
+
+Then when an insurer sends a remittance, or when a patient pays their excess, Effra will automatically add relevant payments into Cliniko. These are created against the relevant invoice.
+
+When we add these payments in Cliniko, the Cliniko to Xero integration automatically pushes the payment to Xero and applies them to the invoices it’s already created there.
+
+So Effra pushes to Cliniko, and Clinko pushes to Xero. All three platforms will be up to date with what you’ve been paid.
+
+When the Cliniko to Xero integration creates these payments in Xero they appear in the clearing account as money ‘received’. This clearing account acts as a virtual pot of money, showing the amounts which you’ve been sent but which haven’t yet landed in your actual bank account.
+
+<img
+  src="/images/xero-clearing-account-1.png"
+  alt="Screenshot showing a Xero clearing account for Cliniko with payments received"
+  title="Xero clearing account with Cliniko payments received"
+/>
+
+## How to reconcile payouts from insurers and Stripe
+
+When the money lands in your bank account from either the insurer or from the Effra Stripe account it will show in your Xero bank feed.
+
+You then have to reconcile that money, which is effectively telling Xero where that money has come from.
+
+That money has already been allocated to invoices within Xero by the Cliniko to Xero integration and marked as being in the clearing account.
+
+So you simply tell Xero that the money has come from the clearing account into your bank account. This is reconciled as a transfer from the clearing account.
+
+<img
+  src="/images/xero-reconciliation-of-bupa-payment.png"
+  alt="Screenshot showing how payments in Xero should be reconfiled as a transfer from the Cliniko clearing account"
+  title="Payments into the bank account should be reconciled as a transfer from the Cliniko clearing account"
+/>
+
+This will then show as money ‘spent’ from the clearing account, representing it leaving this virtual holding account and arriving in your actual bank account.
+
+<img
+  src="/images/xero-clearing-account-2.png"
+  alt="Screenshot showing a Xero clearing account for Cliniko with payments received and paid out"
+  title="Xero clearing account with Cliniko payments received and paid out"
+/>
