@@ -62,7 +62,8 @@
           "faqs/connect-bank-account",
           "faqs/direct-patient-payment",
           "faqs/patient-invoices",
-          "faqs/missing-invoices"
+          "faqs/missing-invoices",
+          "faqs/allocation-timing"
         ]
       }
     ]
