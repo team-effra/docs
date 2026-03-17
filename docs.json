@@ -63,7 +63,8 @@
           "faqs/direct-patient-payment",
           "faqs/patient-invoices",
           "faqs/missing-invoices",
-          "faqs/allocation-timing"
+          "faqs/allocation-timing",
+          "faqs/insurer-adjusted-amount"
         ]
       }
     ]
