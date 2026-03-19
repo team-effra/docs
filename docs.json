@@ -35,6 +35,7 @@
               {
                 "group": "Practice management system",
                 "expanded": false,
+                "root": "docs/getting-set-up/supported-systems",
                 "pages": [
                   "docs/getting-set-up/supported-systems",
                   "docs/getting-set-up/cliniko",
@@ -48,8 +49,16 @@
           {
             "group": "Using Effra",
             "pages": [
-              "docs/using-effra/cliniko",
-              "docs/using-effra/mindbody"
+              {
+                "group": "Effra and your PMS",
+                "expanded": false,
+                "root": "docs/using-effra/effra-and-your-pms/using-effra-with-your-pms",
+                "pages": [
+                  "docs/using-effra/effra-and-your-pms/using-effra-with-your-pms",
+                  "docs/using-effra/effra-and-your-pms/cliniko",
+                  "docs/using-effra/effra-and-your-pms/mindbody"
+                ]
+              }
             ]
           },
           "docs/insurer-contact-details"
