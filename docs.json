@@ -7,7 +7,25 @@
     "light": "#4460ef",
     "dark": "#4460ef"
   },
-  "favicon": "/favicon.ico",
+  "favicon": {
+    "light": "/favicon-light.png",
+    "dark": "/favicon-dark.png"
+  },
+  "logo": {
+    "light": "/logo/effra-logo-light.png",
+    "dark": "/logo/effra-logo-dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact support",
+        "href": "mailto:support@effra.io"
+      }
+    ]
+  },
+  "appearance": {
+    "default": "light"
+  },
   "navigation": {
     "tabs": [
       {
@@ -81,22 +99,5 @@
         ]
       }
     ]
-  },
-  "logo": "/logo/effra-logo.png",
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact support",
-        "href": "mailto:support@effra.io"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.effra.io"
-    }
-  },
-  "appearance": {
-    "default": "light"
   }
 }
