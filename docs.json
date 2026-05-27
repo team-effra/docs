@@ -79,7 +79,8 @@
                   "docs/using-effra/effra-and-your-pms/mindbody",
                   "docs/using-effra/effra-and-your-pms/tm3"
                 ]
-              }
+              },
+              "docs/using-effra/collecting-patient-shortfalls"
             ]
           },
           "docs/insurer-contact-details",
@@ -90,7 +91,7 @@
         "tab": "FAQs",
         "pages": [
           "faqs/card-on-file",
-          "faqs/enforced-card-on-file",
+          "faqs/card-on-file-reminder",
           "faqs/connect-bank-account",
           "faqs/direct-patient-payment",
           "faqs/patient-invoices",
