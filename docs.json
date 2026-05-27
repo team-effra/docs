@@ -26,6 +26,20 @@
   "appearance": {
     "default": "light"
   },
+  "fonts": {
+    "heading": {
+      "family": "Manrope"
+    },
+    "body": {
+      "family": "ui-sans-serif"
+    }
+  },
+  "thumbnails": {
+    "background": "/images/effra-og-image.png",
+    "fonts": {
+      "family": "Manrope"
+    }
+  },
   "navigation": {
     "tabs": [
       {
