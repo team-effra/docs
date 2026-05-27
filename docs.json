@@ -45,12 +45,7 @@
       {
         "tab": "Documentation",
         "pages": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "docs/introduction/overview"
-            ]
-          },
+          "docs/introduction",
           {
             "group": "Getting set up",
             "pages": [
