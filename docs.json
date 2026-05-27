@@ -48,8 +48,7 @@
           {
             "group": "Introduction",
             "pages": [
-              "docs/introduction/overview",
-              "docs/introduction/supported-insurers"
+              "docs/introduction/overview"
             ]
           },
           {
@@ -98,8 +97,14 @@
               "docs/using-effra/dispute"
             ]
           },
-          "docs/insurer-contact-details",
-          "docs/policy-and-pre-authorisation-number-formats"
+          {
+            "group": "Working with Insurers",
+            "pages": [
+              "docs/introduction/supported-insurers",
+              "docs/insurer-contact-details",
+              "docs/policy-and-pre-authorisation-number-formats"
+            ]
+          }
         ]
       },
       {
