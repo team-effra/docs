@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Effra Support",
   "colors": {
-    "primary": "#4460ef",
-    "light": "#4460ef",
-    "dark": "#4460ef"
+    "primary": "#F1C55F",
+    "light": "#F1C55F",
+    "dark": "#FEF2D7"
   },
   "favicon": {
     "light": "/favicon-light.png",
