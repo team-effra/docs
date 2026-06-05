@@ -4,17 +4,43 @@ title: "Nookal"
 
 # Setting up Nookal
 
-## Grant Effra access to Nookal
+To get Nookal set up there are two steps:
 
-Granting Effra access to Nookal is as simple as adding a new user, and securely sharing the login details with us.
+1. [Create a permissions group for Effra](#create-a-permissions-group-for-effra)
+2. [Grant Effra access to Nookal](#grant-effra-access-to-nookal)
+
+## Create a permissions group for Effra
 
 1. On the menu at the top of the screen, click **Setup**
-2. In the **Users** section, click **Staff**
-3. At the bottom right of the screen, click **Create Staff Member**
-4. Give the new user a name that's memorable to you
-5. Set the **Position** and **Discipline** to anything you would like, e.g. Accounts and Administrator
-6. Set the **Status** to **Active**
-7. For the **Permissions**, select "Owner". This allows us to create an API key so we can pull invoice information into Effra
-8. Set **Locations** to **All Locations**, unless you only want Effra to support billing at some of your locations
-9. Set the email address to [**robot@effra.io**](mailto:robot@effra.io)
-10. Click **Create Staff Member**
+2. In the **Users** section, click **Permissions**
+3. At the bottom right of the screen, click **Create New Group**
+4. Enter a title for the new group (e.g. Effra) and select continue
+5. The new permissions group will now appear in the table, and you are ready to select the items Effra requires. These are:
+
+| Permissions Item | View or Edit? |
+| --- | --- |
+| Services | View |
+| Permissions | View |
+| Cases | View |
+| Details | View |
+| Accounts | Edit |
+| Invoices | Edit |
+| Case Titles | Edit |
+| Integrations and API Keys | Edit |
+| Pay Invoices | Edit |
+| Credits | Edit |
+| Invoices Report | View |
+
+## Grant Effra access to Nookal
+
+Now, you can create a new user for Effra.
+
+1. In the **Users** section, click **Staff**
+2. At the bottom right of the screen, click **Create Staff Member**
+3. Give the new user a name that's memorable to you
+4. Set the **Position** and **Discipline** to anything you would like, e.g. Accounts and Administrator
+5. Set the **Status** to **Active**
+6. For the **Permissions**, select "Effra", or whatever you named the permissions group that you just created.
+7. Set **Locations** to **All Locations**, unless you only want Effra to support billing at some of your locations
+8. Set the email address to [**robot@effra.io**](mailto:robot@effra.io)
+9. Click **Create Staff Member**

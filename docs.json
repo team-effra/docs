@@ -59,8 +59,7 @@
                 ]
               },
               {
-                "group": "Practice management system",
-                "expanded": false,
+                "group": "Practice Management Systems",
                 "root": "docs/getting-set-up/supported-systems",
                 "pages": [
                   "docs/getting-set-up/supported-systems",
