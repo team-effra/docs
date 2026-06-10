@@ -1,0 +1,93 @@
+---
+title: "Challenges with claims"
+---
+
+Some invoices are not initially paid by the insurer or the patient. This can happen for three different reasons:
+
+1. Stuck in submitted - Effra does not receive a response from the insurer
+2. Insurer shortfall - the insurer does not pay the invoiced amount, but the patient is not liable
+3. Patient overdue - the patient is liable, but has not paid
+
+Effra gives you visibility of invoices in each category, works to resolve them automatically and lets you know when you need to take action.
+
+<AccordionGroup>
+  <Accordion title="Invoice stuck in submitted ">
+    **What does this mean?**
+
+    In these cases, a claim has been submitted, but we have not received a response from the insurer (we see this challenge most frequently with AXA).
+
+    **Why does this occur?**
+
+    This issue can occur due to a few different reasons:
+
+    1. The insurer did not process the claim
+    2. The insurer processed the claim, but Effra does not have a copy of the remittance containing the adjudication
+    3. The insurer processed the claim and provided a remittance, but errors within the statement prevented Effra from automatically identifying the payment and linking it to the corresponding invoice. For instance, AXA sometimes merges invoices or makes typos in the invoice number.
+
+    **How is Effra helping to solve this?**
+
+    We understand that this scenario can often be very frustrating, so Effra takes the following actions:
+
+    1. We use AI to auto-correct mistakes in insurer remittances.
+    2. We manually review any mistakes that cannot be corrected automatically.
+    3. We request remittances to ensure we are not missing any.
+    4. We automatically resubmit claims if we haven't received a response after 45 days.
+    5. We submit aged debt requests for invoices that do not appear in any remittances.
+  </Accordion>
+
+  <Accordion title="Insurer shortfall">
+    **What does this mean?**
+
+    This occurs when the insurer has rejected or part paid the claim, but the patient is not necessarily liable.
+
+    **Why does this occur?**
+
+    There can be a range of explanations for this outcome, not limited to:
+
+    1. The insurer needs more information to process the claim.
+    2. The insurer has incorrectly adjudicated the claim. For example, insurers often flag a patient’s second appointment on the same day as a duplicate, even if the invoice has a separate pre-authorisation code for a separate treatment.
+    3. The insurer requires some more information before they can process the claim.
+    4. The amount claimed is not in line with a clinic’s agreed rate with an insurer for a treatment.
+    5. The insurer cannot process the claim due to a mistake in the claim.
+    6. The clinic has made a claim for a treatment that their patient is not covered for.
+
+    **How is Effra helping to solve this?**
+
+    To help you take action against these, Effra:
+
+    1. Gives you visibility by displaying ‘insurer shortfall’ as a distinct category within the dashboard.
+    2. Notifies you via email when insurer shortfalls are identified.
+    3. Automatically identifies and challenges insurer shortfalls on your behalf through our feature ‘Effra Dispute’. For more information on how this works, please refer to our support article here: [<u>Effra Dispute</u>](https://support.effra.io/docs/using-effra/dispute).
+    4. Flags bad or missing invoice data so that you can update the invoice. 
+
+    Where Effra cannot resolve the insurer shortfall for you, you should do one of the following:
+
+    1. Contact the insurer to resolve the issue or query their adjudication
+    2. Contact the patient to prompt them to either pay the invoice or contact the insurer to resolve the issue or query their adjudication. If you are struggling to get a response, it can be effective to send them the invoice directly.
+    3. Raise a support ticket within Effra and we will try to help where possible
+  </Accordion>
+
+  <Accordion title="Patient's payment overdue" iconType="regular">
+    **What does this mean?**
+
+    In these cases, the patient has been invoiced, but their payment is overdue. 
+
+    **How is Effra helping to solve this?**
+
+    To avoid this scenario, we strongly recommend that you get the patient’s card on file ahead of their first treatment, so that you can automatically collect payment from them if required. For more information on using card on file, please refer to our [Collecting patient shortfalls](/docs/using-effra/collecting-patient-shortfalls#collecting-patient-shortfalls) article.
+
+    If a card is not registered on file to the patient, here is how Effra handles these late payments:
+
+    <Steps>
+      <Step title="Initial Notification">
+        When an insurer confirms a patient needs to pay a shortfall, Effra automatically emails the patient their invoice with a secure link to pay via Stripe. 
+      </Step>
+      <Step title="The 5-Day Mark">
+        If the patient has not paid after 5 days, Effra will display their payment as “Overdue” and we will notify you that it has become overdue. Then, our system will automatically resend the invoice every 5-7 days, depending on the time frame you have selected in your settings.
+      </Step>
+      <Step title="The 20-Day Mark">
+        If the payment is still outstanding after 20 days, Effra will notify you so that you can contact the patient directly to resolve the issue.
+      </Step>
+    </Steps>
+  </Accordion>
+</AccordionGroup>

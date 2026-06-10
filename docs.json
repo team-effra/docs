@@ -96,7 +96,8 @@
             "pages": [
               "docs/introduction/supported-insurers",
               "docs/insurer-contact-details",
-              "docs/policy-and-pre-authorisation-number-formats"
+              "docs/policy-and-pre-authorisation-number-formats",
+              "docs/challenges-with-claims"
             ]
           }
         ]
