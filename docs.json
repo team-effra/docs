@@ -114,6 +114,18 @@
           "faqs/allocation-timing",
           "faqs/insurer-adjusted-amount"
         ]
+      },
+      {
+        "tab": "Insurer Guide",
+        "groups": [
+          {
+            "group": "Effra's Guide to Insurer Billing",
+            "pages": [
+              "intro",
+              "submitting-invoices-to-insurers"
+            ]
+          }
+        ]
       }
     ]
   }
