@@ -2,9 +2,42 @@
 title: "TM3"
 ---
 
-# Creating invoices
+# Storing and updating patient details
 
-Effra will automatically submit TM3 invoices (not charges) to the insurers. Invoices should be:
-* Raised as soon as possible after the treatment is completed, ideally on the same day.
-* Addressed to the insurer.
-* Only include the line items for a single appointment.
+With TM3 set up, you only need to make sure that each patient's insurance details (i.e. their membership number and pre-authorisation code(s) are stored in the right place so that Effra can pick them up and submit invoices with the right details.
+
+## Add a membership number
+
+Membership numbers are added directly to the patient's profile by selecting **Show More** within the Contact Details tab on the left of the patient profile. There, you can then input the patient's membership number against the **Policy No:** line item.
+
+## Add a pre-authorisation code
+
+1. Open a patient's profile
+2. Select **Add Authorisation** from the top banner
+3. Complete the form with:
+   1. Pre-authorisation code
+   2. Insurer
+   3. Start date
+   4. Expiry date
+   5. Maximum number of appointments
+   6. Authorised value
+4. Select **Add Treatment Auth**
+5. The authorisation will now be visible within the **Authorisations** tab on the left within the patient's profile (where you can also edit its details going forward).
+
+<Frame>
+  ![Screenshot 2026 07 17 At 14 02 59](/images/Screenshot-2026-07-17-at-14.02.59.png)
+</Frame>
+
+# Raising an invoice in TM3
+
+Effra integrates with invoices in TM3, not the charges feature, and is configured to accommodate the standard invoicing process in TM3, so you shouldn't need to change your routine or do anything new. 
+
+1. Open the patient's profile.
+2. Select **Add Invoice** from the top banner.
+3. In the **Quick Bill** window, use the search bar to add the relevant insurer treatment item.
+   1. Add only one insurer item per invoice
+4. Set the **Billed To** field to the relevant insurer, not the patient
+5. Check that the location is correct
+6. Select **Invoice & Pay Later**
+
+The invoice will then be created in TM3, and Effra will automatically pull it through to be submitted
