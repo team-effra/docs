@@ -8,41 +8,40 @@ title: "Policy and pre-authorisation number formats"
 
 Each insurer has different possible formats for policy numbers and pre-authorisation numbers. Effra will automatically check these for you and highlight any issues.
 
-# Policy numbers
+# Policy & membership numbers
 
 | Insurer | Possible Formats | Examples |
 | --- | --- | --- |
-| **Allianz** | Letter **P** followed by 9 digits<br /><br />_Note: this is not the plan number_ | `P001234567` |
+| **Allianz** | **P** \+ 4 to 9 digits<br /><br />_Note: Allianz also have plan numbers, which have a different format._ | `P0123`<br />`P001234567` |
 | **Bupa** | 9 or 10 digits (numbers only) | `123456789`<br />`1234567890` |
-| **Bupa Global** | Optional **BI** prefix (with or without hyphen or space), followed by three groups of 4 digits separated by hyphens or spaces | `BI-1234-1234-1234`<br />`1234-1234-1234`<br />`BI 1234 1234 1234` |
-| **AXA** | 7 digits \+ 1 letter (sometimes with spaces) | `1234567A`<br />`576 586 7S` |
+| **Bupa Global** | **BI** prefix followed by three groups of 4 digits separated by hyphens | `BI-1234-1234-1234` |
+| **AXA** | 7 digits \+ 1 letter | `1234567A` |
 |  | **AXA/** or **HOL/** \+ letter \+ 7 digits | `AXA/A1234567`<br />`HOL/A1234567` |
-|  | Letter \+ 7 digits (sometimes normalized with **AXA/** prefix) | `A1234567` |
-|  | 8 digits \+ 2 letters \+ 2 digits (sometimes with spaces) | `15416654PP01` |
+|  | Letter \+ 7 digits | `A1234567` |
+|  | 8 digits \+ 2 letters \+ 2 digits | `12345678PP01` |
 |  | **AXA-** \+ 2 letters \+ 6 digits | `AXA-AA000000` |
-|  | 2 letters \+ 6 digits | `AA000000` |
-|  | 3 letters \+ 5 digits | `AAA00000` |
-|  | 2 letters \+ 7 digits \+ 1 letter (sometimes with spaces) | `RS6 186 039D`<br />`AA0000000A` |
-| **AXA Global** | **INTL** \+ 7–8 digits | `INTL1234567` |
-|  | Prefix from (**AXI, AXE, AXC, BXI, BXE, BXC, HKE, KVE, OGI**) \+ 8 digits | `AXI12345678`<br />`BXE12345678` |
-| **Aviva** | 6 digits, slash, 3 digits | `123456/123` |
-|  | 3 digits \+ 3 alphanumeric characters | `951D2J`<br />`980033`<br />`981BDN` |
-| **Cigna** | 9 digits, hyphen or slash, 2 digits | `123456789-01` |
-|  | 11 digits | `85081840201` |
-|  | 9 digits | `921156296` |
-|  | 5 digits \+ 1 letter \+ 3 digits | `08402A001` |
-| **WPA** | 7–9 digits (numbers only) | `1234567`<br />`123456789` |
-| **Vitality** | _(plan number — see note)_ |  |
-|  | 5 \+ 7 digits | `54257599` |
-|  | **200** \+ 5 digits | `20016640` |
-|  | **3000** \+ 4 digits | `30001192` |
-|  | **40000** \+ 3 digits | `40000045` |
-|  | Letter or digit, slash, then 7–8 digits | `A/12345678`<br />`1/1234567` |
-| **Healix** | 3–6 uppercase letters \+ 5 digits | `DIAGEO06220`<br />`DEL00156` |
-|  | **W** \+ 9 digits | `W282738247` |
+|  | 2 letters \+ 6 digits | `AA123456` |
+|  | 3 letters \+ 5 digits | `AAA12345` |
+|  | 2 letters \+ 7 digits \+ 1 letter | `AA1234567A` |
+| **AXA Global** | **INTL7** \+ 6 or 7 digits | `INTL1234567` |
+|  | Prefix from **AXI, AXE, AXC, BXI, BXE, BXC, HKE, KVE,** or **OGI** \+ 8 digits | `AXI12345678`<br />`BXE12345678` |
+| **Aviva** | 6 digits \+ slash \+ 3 digits | `123456/123` |
+|  | 3 digits \+ 3 alphanumeric characters | `123A1A`<br />`123456`<br />`123ABC` |
+| **Cigna** | 9 digits \+ hyphen \+ 2 digits | `123456789-01` |
+|  | 11 digits | `12345678901` |
+|  | 9 digits | `123456789` |
+|  | 5 digits \+ 1 letter \+ 3 digits | `12345A123` |
+| **WPA** | 7–9 digits | `1234567`<br />`123456789` |
+| **Vitality plan number** | **5** \+ 7 digits | `51234567` |
+|  | **200** \+ 5 digits | `20012345` |
+|  | **3000** \+ 4 digits | `30001234` |
+|  | **40000** \+ 3 digits | `40000123` |
+| **Vitality membership**<br />**number** | Letter or digit \+ slash \+ 7 or 8 digits | `A/12345678`<br />`1/1234567` |
+| **Healix** | 3–6 uppercase letters \+ 5 digits | `ABCDEF12345`<br />`ABC12345` |
+|  | **W** \+ 9 digits | `W123456789` |
 |  | 7 digits | `1234567` |
-|  | 7 digits \+ 1 letter | `2129157A` |
-|  | **OPTOA** \+ digit \+ `/` \+ 9 digits | `OPTOA5/000000650` |
+|  | 7 digits \+ 1 letter | `1234567A` |
+|  | **OPTOA** \+ digit \+ slash \+ 9 digits | `OPTOA1/123456789` |
 
 # Pre-authorisation numbers
 
@@ -54,9 +53,9 @@ Each insurer has different possible formats for policy numbers and pre-authorisa
 |  | **AXACLM** followed by 6–7 digits | `AXACLM1234567`<br />`AXACLM123456` |
 |  | **APP-** followed by 9 digits | `APP-123456789` |
 | **AXA Global** | 7 digits | `1234567` |
-| **Aviva** | 6 digits, then separator (**/** or **\\**), 2 digits, separator, 4 digits, separator, 3 digits | `123456/12/1234/123`<br />`123456\12\1234\123` |
-|  | 6 digits, then separator (**/** or **-** or **\\**), then 2 digits | `123456/12`<br />`123456-12`<br />`123456\12` |
-| **WPA** | 6 letters (A–Z, upper or lower case) | `MFSNNK` |
-| **Vitality** | **10 or 11** followed by 6 digits | `10123456`<br />`11654321` |
-| **Healix** | 7 digits followed by the letter **A** | `1234567A` |
+| **Aviva** | 6 digits \+ slash \+ 2 digits \+ slash \+ 4 digits \+ slash \+ 3 digits | `123456/12/1234/123`<br />`123456\12\1234\123` |
+|  | 6 digits \+ slash \+ 2 digits | `123456/12`<br />`123456\12` |
+| **WPA** | 6 letters | `MFSNNK` |
+| **Vitality** | **10** or **11** \+ 6 digits | `10123456`<br />`11654321` |
+| **Healix** | 7 digits \+ **A** | `1234567A` |
 |  | 6 digits | `123456` |
