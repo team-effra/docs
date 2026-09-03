@@ -107,12 +107,15 @@
       {
         "tab": "FAQs",
         "pages": [
-          "faqs/card-on-file",
-          "faqs/card-on-file-reminder",
+          "untitled-page",
+          "untitled-page-2",
+          "untitled-page-3",
           "faqs/connect-bank-account",
           "faqs/direct-patient-payment",
           "faqs/patient-invoices",
           "faqs/missing-invoices",
+          "faqs/card-on-file",
+          "faqs/card-on-file-reminder",
           "faqs/allocation-timing",
           "faqs/insurer-adjusted-amount"
         ]
