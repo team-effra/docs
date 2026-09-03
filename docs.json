@@ -107,9 +107,9 @@
       {
         "tab": "FAQs",
         "pages": [
-          "untitled-page",
-          "untitled-page-2",
-          "untitled-page-3",
+          "why-is-my-invoice-in-action-required",
+          "how-do-i-cancel-an-invoice",
+          "submit-an-invoice-for-provider",
           "faqs/connect-bank-account",
           "faqs/direct-patient-payment",
           "faqs/patient-invoices",
